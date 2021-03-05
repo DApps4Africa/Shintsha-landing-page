@@ -4,7 +4,7 @@ Just like the internet is the gateway to information, we believe Shintsha could 
 
 Our initial solution from the on set was a broader vision where we envisioned a decentralized online market for farmers but we found out that this wouldn’t be possible without building existing infrastructures that enables faster and easier access to crypto via already familiar and existing infrastructures, we have gone ahead to build APIs on these infrastructures which can be leveraged on to build more decentralized solutions for the African ecosystem.
 
-Shintsha meaning Exchange in the Isi Zulu language is a set of APIs that leverages existing infrastructures such as WhatsApp to send and receive crypto in Africa.
+> **Shintsha** meaning Exchange in the isiZulu language is a set of APIs that leverages existing infrastructures such as WhatsApp to send and receive crypto in Africa.
 
 Our aim is to increase the adoption of crypto and promote financial inclusion in Africa.
 
