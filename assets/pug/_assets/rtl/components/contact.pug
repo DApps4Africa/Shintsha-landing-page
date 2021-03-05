@@ -1,0 +1,46 @@
+// contact-section
+section#contact.contact
+  .container
+    .row
+      .col-md-6.p-0.text-right
+        .section-title
+          h2  الحصول على اتصال 
+        form.auth-form
+          .form-group
+            label(for='exampleInputName1') اسم
+            i.fa.fa-user
+            input#exampleInputName1.form-control(required='', name='login[username]', type='email', placeholder='اسم المستخدم')
+          .form-group
+            label(for='exampleInputEmail12') البريد الإلكتروني
+            i.fa.fa-envelope-o
+            input#exampleInputEmail12.form-control(required='', name='login[email]', type='email', placeholder='البريد الإلكتروني')
+          .form-group
+            label رسالتك
+            i.fa.fa-commenting-o
+            textarea#message.form-control(name='message', cols='30', rows='10', placeholder='رسالتك')
+          .form-group.mb-0
+            button.btn-theme(type='submit')  ارسل رسالة
+      .col-md-6
+        .section-title.text-right
+          h2 معلومات الاتصال
+          p أبجد هوز ليلة سعيدة امات, كرس الحسومات المطور هل تفعل كرس تيم من قبل إنديدي دنت.
+        ul.contact-box
+          li
+            .contact-circle
+              i.fa.fa-map-marker(aria-hidden='true')
+            .contact-text
+              h3  الموقع 
+              p 123 شارع الأعمال ، هيوستن ، الولايات المتحدة الأمريكية
+          li
+            .contact-circle
+              i.fa.fa-phone(aria-hidden='true')
+            .contact-text
+              h3 اتصل بنا
+              p +91 123-456-7890
+          li
+            .contact-circle
+              i.fa.fa-envelope(aria-hidden='true')
+            .contact-text
+              h3 راسلنا
+              p support@gmail.com
+// end contact section

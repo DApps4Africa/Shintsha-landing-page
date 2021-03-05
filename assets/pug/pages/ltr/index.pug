@@ -1,0 +1,31 @@
+- var img = "../../assets/images/"
+- var src = "color1.css"
+- var nav_url = ""
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header-files
+    body(data-spy='scroll', data-target='.navbar', data-offset='75')
+      include ../../_assets/ltr/components/loader
+      include ../../_assets/ltr/includes/nav
+      include ../../_assets/ltr/components/home
+      include ../../_assets/ltr/components/about
+      include ../../_assets/ltr/components/feature
+      include ../../_assets/ltr/components/how_it_works 
+      include ../../_assets/ltr/components/screenshot
+      include ../../_assets/ltr/components/work_place    
+      include ../../_assets/ltr/components/price
+      include ../../_assets/ltr/components/testimonial
+      include ../../_assets/ltr/components/faq
+      include ../../_assets/ltr/components/blog
+      include ../../_assets/ltr/components/download
+      include ../../_assets/ltr/components/contact    
+      include ../../_assets/ltr/components/subscribe    
+      include ../../_assets/ltr/includes/footer
+      include ../../_assets/ltr/includes/footer-files
+
+      // swiper js
+      script(src='../../assets/js/swiper.min.js')
+      //home page
+      script(src='../../assets/js/scroll.js')
+      script(src='../../assets/js/slider.js')

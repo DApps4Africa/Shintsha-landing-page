@@ -1,0 +1,23 @@
+{
+  "name": "shinthsa-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "html-webpack-plugin": "^5.0.0-beta.4",
+    "browser-sync": "^2.26.3",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-livereload": "^4.0.1",
+    "gulp-livereload-2": "^3.8.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "jade": "^1.11.0",
+    "livereload": "^0.7.0"
+  }
+}

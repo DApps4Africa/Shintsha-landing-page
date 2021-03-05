@@ -1,0 +1,47 @@
+// footer-section
+section#contact.contact
+      .container
+        .row
+          .col-md-6
+            .section-title
+              h2 Get In Touch
+            form.auth-form
+              .form-group
+                label(for='exampleInputName1') Name
+                i.fa.fa-user
+                input#exampleInputName1.form-control(required='', name='login[username]', type='email', placeholder='User name')
+              .form-group
+                label(for='exampleInputEmail12') Email
+                i.fa.fa-envelope-o
+                input#exampleInputEmail12.form-control(required='', name='login[email]', type='email', placeholder='Email')
+              .form-group
+                label Your message
+                i.fa.fa-commenting-o
+                textarea#message.form-control(name='message', cols='30', rows='10', placeholder='Your Message')
+              .form-group.mb-0
+                button.btn-theme(type='submit') Send Message
+          .col-md-6
+            .section-title
+              h2 Contact Info
+            p
+              | Lorem ipsum dolor sit amet, consecte adipisicing elit sed do eiusmod tempor incididunt.
+            ul.contact-box
+              li
+                .contact-circle
+                  i.fa.fa-map-marker(aria-hidden='true')
+                .contact-text
+                  h3 Location
+                  p 123 Business Avenue, Hoston, USA
+              li
+                .contact-circle
+                  i.fa.fa-phone(aria-hidden='true')
+                .contact-text
+                  h3 Call US
+                  p +91 123-456-7890
+              li
+                .contact-circle
+                  i.fa.fa-envelope(aria-hidden='true')
+                .contact-text
+                  h3 Email Us
+                  p support@gmail.com
+// end footer section

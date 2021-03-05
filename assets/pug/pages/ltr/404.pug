@@ -1,0 +1,32 @@
+- var src = "color1.css"
+- var img = "../../assets/images/"
+- var nav_url = "index.html"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header-files
+    body(data-spy='scroll', data-target='.navbar', data-offset='75')
+      include ../../_assets/ltr/components/loader
+      section.p-0
+       .auth-page.error-main
+        .container
+          .row
+            .col-sm-12
+              .text-center
+                h2.error-font
+                  | 4
+                  span 0
+                  | 4
+                h2.f-bold
+                  | Oops! Error 404 not found.
+                .col-lg-8.offset-lg-2.col-12
+                  h4 The page you were looking for doesn't exist. We think the page may have moved.
+        .animation-circle-inverse
+          i
+          i
+          i
+        .animation-circle.absolute
+          i
+          i
+          i
+      include ../../_assets/ltr/includes/footer-files

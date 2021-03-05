@@ -1,0 +1,65 @@
+- var img = "../../assets/images/"
+- var src = "color1.css"
+- var nav_url = "index.html"
+doctype html
+html(lang='en' dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header-files
+    body
+      include ../../_assets/rtl/components/loader
+      // Page start
+      section.auth-page
+        .animation-circle-inverse
+          i
+          i
+          i
+        .animation-circle
+          i
+          i
+          i
+        .container.cooming-soon
+          .row.mb-50
+            .col-md-6.left
+              .clock-box
+                div
+                  .mb-4
+                    h2 نحن نطلق قريبا
+                    .line
+                  #clockdiv
+                    div
+                      span.days
+                      .smalltext أيام
+                    div
+                      span.hours
+                      .smalltext ساعات
+                    div
+                      span.minutes
+                      .smalltext الدقائق
+                    div
+                      span.seconds
+                      .smalltext ثواني
+            .col-md-6
+              .home-right
+                .animation-circle-inverse
+                  i
+                  i
+                  i
+                .mobile-slid
+                  img.img-fluid(src='../../assets/images/top-mobile.png', alt='top1')
+                .profile-msg
+                  img.img-fluid(src='../../assets/images/top2.png', alt='top2')
+                .awesome
+                  img.img-fluid(src='../../assets/images/top3.png', alt='top3')
+                .profile-1
+                  img.img-fluid(src='../../assets/images/top4.png', alt='top4')
+                .emoji
+                  img.img-fluid(src='../../assets/images/top5.png', alt='top5')
+                .profile-2
+                  img.img-fluid(src='../../assets/images/top1.png', alt='top1')
+      // Page Ends
+       
+      include ../../_assets/rtl/components/subscribe
+      include ../../_assets/rtl/includes/footer
+      include ../../_assets/rtl/includes/footer-files
+      // timer file
+      script(src='../../assets/js/timer.js')

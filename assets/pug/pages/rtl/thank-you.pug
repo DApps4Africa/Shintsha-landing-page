@@ -1,0 +1,20 @@
+- var img = "../../assets/images/"
+- var src = "color1.css"
+- var nav_url = "index.html"
+doctype html
+html(lang='en' dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header-files
+    body.rtl
+      include ../../_assets/rtl/components/loader
+      section.p-0
+        .animation-circle-inverse
+          i
+          i
+          i
+        .thanks-bg
+          .thank-you
+            img.img-fluid(src='../../assets/images/thanks.gif', alt='thanks')
+            h3.mb-4 شكرًا لك على تنزيل حلقة الدردشة!
+
+    include ../../_assets/rtl/includes/footer-files

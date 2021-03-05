@@ -1,0 +1,38 @@
+- var img = "../../assets/images/"
+- var src = "color1.css"
+- var nav_url = "index.html"
+doctype html
+html(lang='en' dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header-files
+    body.rtl
+      include ../../_assets/rtl/components/loader
+      section.auth-page
+        .animation-circle-inverse
+          i
+          i
+          i
+        .animation-circle
+          i
+          i
+          i
+        .auth-card
+          .text-center
+            h2 هل نسيت كلمة المرور
+            .line
+          .main
+            form.auth-form
+              .form-group
+                label(for='exampleInputEmail1') البريد الإلكتروني
+                i.fa.fa-envelope-o
+                input#exampleInputEmail1.form-control(required='', name='login[username]', type='email', placeholder='البريد الإلكتروني')
+              .form-group
+                button.btn.submit(type='submit') إرسال الكود
+              .or-saparator
+                span أو
+              h6.text-center.mt-0.mb-3 تسجيل الدخول ب:
+              .form-button.text-center.social-btns
+                button.btn.submit.fb(href='sign-in.html') تسجيل الدخول
+                button.btn.submit.ggl.mr-1(href='sign-up.html') سجل
+
+    include ../../_assets/rtl/includes/footer-files

@@ -1,0 +1,41 @@
+- var src = "color1.css"
+- var img = "../../assets/images/"
+- var nav_url = "index.html"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header-files
+    body.inner-page
+      include ../../_assets/ltr/components/loader
+      include ../../_assets/ltr/includes/nav
+      div.page-margin
+        // breadcrumb start
+        .breadcrumb-bg
+          .container
+            .row
+              .col-md-6.col-sm-6.d-align-center
+                h2.title
+                  span  Blog
+              .col-md-6.col-sm-6
+                nav.theme-breadcrumb(aria-label='breadcrumb')
+                  ol.breadcrumb.bg-transparent.mb-0
+                    li.breadcrumb-item
+                      a(href='index.html') Home
+                    li.breadcrumb-item.active
+                      a(href='#') Blog details with left-sidebar
+        // breadcrumb end
+        // blog Section start
+        section.blog-page
+          .container
+            .row
+              // blog details starts
+              .col-sm-12.col-md-8.col-lg-9
+                 include ../../_assets/ltr/blog/blog-details  
+              // blog details end
+
+              //Blog sidebar  
+              .col-md-4.col-lg-3.order-md-first.list-sidebar
+                  include ../../_assets/ltr/blog/blog-sidebar  
+              //Blog sidebar Ends
+      include ../../_assets/ltr/includes/footer
+      include ../../_assets/ltr/includes/footer-files

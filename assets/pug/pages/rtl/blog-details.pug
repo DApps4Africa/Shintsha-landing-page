@@ -1,0 +1,37 @@
+- var img = "../../assets/images/"
+- var src = "color1.css"
+- var nav_url = "index.html"
+doctype html
+html(lang='en' dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header-files
+    body.inner-page.rtl
+      include ../../_assets/rtl/components/loader
+      include ../../_assets/rtl/includes/nav
+      div.page-margin
+        // breadcrumb start
+        .breadcrumb-bg
+          .container
+            .row
+              .col-md-6.col-sm-6.d-align-center
+                h2.title
+                  span  مدونة
+              .col-md-6.col-sm-6
+                nav.theme-breadcrumb(aria-label='breadcrumb')
+                  ol.breadcrumb.bg-transparent.mb-0
+                    li.breadcrumb-item
+                      a(href='index.html') الصفحة الرئيسية
+                    li.breadcrumb-item.active
+                      a(href='#') تفاصيل بلوق
+        // breadcrumb end
+        // blog Section start
+        section.blog-page
+          .container
+            .row
+              // blog details starts
+              .col-sm-12
+                 include ../../_assets/rtl/blog/blog-details  
+              // blog details end
+
+      include ../../_assets/rtl/includes/footer
+      include ../../_assets/rtl/includes/footer-files

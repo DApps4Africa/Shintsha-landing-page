@@ -1,0 +1,33 @@
+- var img = "../../assets/images/"
+- var src = "color1.css"
+- var nav_url = "index.html"
+doctype html
+html(lang='en' dir='rtl')
+    head
+      include ../../_assets/ltr/includes/header-files
+    body.rtl(data-spy='scroll', data-target='.navbar', data-offset='75')
+      include ../../_assets/ltr/components/loader
+      section.p-0
+       .auth-page.error-main
+        .container
+          .row
+            .col-sm-12
+              .text-center
+                  h2.error-font
+                    | 4
+                    span 0
+                    | 4
+                  h2.f-bold غير معثور عليه
+                  .col-lg-8.m-auto.col-12
+                    h4
+                      | الصفحة التي تحاول الوصول إليها غير متوفرة حاليًا. قد يكون هذا بسبب
+                      | الصفحة غير موجودة أو تم نقلها.
+        .animation-circle-inverse
+          i
+          i
+          i
+        .animation-circle.absolute
+          i
+          i
+          i
+      include ../../_assets/ltr/includes/footer-files

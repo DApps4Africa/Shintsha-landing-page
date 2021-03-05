@@ -1,0 +1,59 @@
+- var src = "color1.css"
+- var img = "../../assets/images/"
+- var nav_url = "index.html"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header-files
+    body.inner-page
+      include ../../_assets/ltr/components/loader
+      include ../../_assets/ltr/includes/nav
+      div.page-margin
+        // breadcrumb start
+        .breadcrumb-bg
+          .container
+            .row
+              .col-md-6.col-sm-6.d-align-center
+                h2.title
+                  span  Blog
+              .col-md-6.col-sm-6
+                nav.theme-breadcrumb(aria-label='breadcrumb')
+                  ol.breadcrumb.bg-transparent.mb-0
+                    li.breadcrumb-item
+                      a(href='index.html') Home
+                    li.breadcrumb-item.active
+                      a(href='#') Blog
+        // breadcrumb end
+        // blog Section start
+        section.blog-page
+          .container
+            .row
+              .col-sm-12
+                 include ../../_assets/ltr/blog/blog-list
+              // paginations
+              .col-md-12
+                nav.blog-pagination(aria-label='Page navigation')
+                  ul.pagination.justify-content-center.blog-pagin
+                    li.page-item
+                      a.page-link(href='#', aria-label='Previous')
+                        i.fa.fa-angle-left(aria-hidden='true')
+                    li.page-item.active
+                      a.page-link(href='#') 1
+                    li.page-item
+                      a.page-link(href='#') 2
+                    li.page-item
+                      a.page-link(href='#') 3
+                    li.page-item
+                      a.page-link(href='#', aria-label='Next')
+                        i.fa.fa-angle-right(aria-hidden='true')
+              // paginations end   
+          .animation-circle.absolute
+            i
+            i
+            i
+          .animation-circle-inverse
+            i
+            i
+            i
+      include ../../_assets/ltr/includes/footer
+      include ../../_assets/ltr/includes/footer-files

@@ -1,0 +1,70 @@
+// facebook chat section start
+#fb-root
+script.
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+// Your customer chat code
+.fb-customerchat(attribution='setup_tool', page_id='2123438804574660', theme_color='#5f57ea', logged_in_greeting='Hi! Welcome to PixelStrap Themes  How can we help you?', logged_out_greeting='Hi! Welcome to PixelStrap Themes  How can we help you?')
+// facebook chat section end
+
+
+<!--[if lt IE 9]>
+<div class="ie-warning">
+   <h1>Warning!!</h1>
+   <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+   <div class="iew-container">
+      <ul class="iew-download">
+         <li>
+            <a href="http://www.google.com/chrome/">
+               <img src="../../assets/images/browsers/chrome.png" alt="">
+               <div>Chrome</div>
+            </a>
+         </li>
+         <li>
+            <a href="https://www.mozilla.org/en-US/firefox/new/">
+               <img src="../../assets/images/browsers/firefox.png" alt="">
+               <div>Firefox</div>
+            </a>
+         </li>
+         <li>
+            <a href="http://www.opera.com">
+               <img src="../../assets/images/browsers/opera.png" alt="">
+               <div>Opera</div>
+            </a>
+         </li>
+         <li>
+            <a href="https://www.apple.com/safari/">
+               <img src="../../assets/images/browsers/safari.png" alt="">
+               <div>Safari</div>
+            </a>
+         </li>
+         <li>
+            <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+               <img src="../../assets/images/browsers/ie.png" alt="">
+               <div>IE (9 & above)</div>
+            </a>
+         </li>
+      </ul>
+   </div>
+   <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+        
+// js file
+script(src='../../assets/js/jquery-3.3.1.min.js')
+// bootstrap js file
+script(src='../../assets/js/bootstrap.min.js')
+// popper js file
+script(src='../../assets/js/popper.min.js')
+// Owl carousel js file
+script(src='../../assets/js/owl.carousel.min.js')
+
+// tilt js file
+script(src='../../assets/js/tilt.jquery.js')
+// script js file
+script(src='../../assets/js/script.js')

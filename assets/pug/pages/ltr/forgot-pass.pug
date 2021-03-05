@@ -1,0 +1,37 @@
+- var src = "color1.css"
+- var img = "../../assets/images/"
+- var nav_url = "index.html"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header-files
+    body
+      include ../../_assets/ltr/components/loader
+      section.auth-page
+        .animation-circle-inverse
+          i
+          i
+          i
+        .animation-circle
+          i
+          i
+          i
+        .auth-card
+          .text-center
+            h2 Forgot Password
+            .line
+          .main
+            form.auth-form
+              .form-group
+                label(for='exampleInputEmail1') Email
+                i.fa.fa-envelope-o
+                input#exampleInputEmail1.form-control(required='', name='login[username]', type='email', placeholder='Email')
+              .form-group
+                button.btn.submit(type='submit') Send Code
+              .or-saparator
+                span or
+              h6.text-center.mt-0.mb-3 Sign in with:
+              .form-button.text-center.social-btns
+                button.btn.submit.fb(href='sign-in.html') Sign in
+                button.btn.submit.ggl(href='sign-up.html') Signup
+      include ../../_assets/ltr/includes/footer-files

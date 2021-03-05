@@ -1,0 +1,52 @@
+- var img = "../../assets/images/"
+- var src = "color1.css"
+- var nav_url = "index.html"
+doctype html
+html(lang='en' dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header-files
+    body.rtl
+      include ../../_assets/rtl/components/loader
+      section.auth-page
+        .animation-circle-inverse
+          i
+          i
+          i
+        .animation-circle
+          i
+          i
+          i
+        .auth-card
+          .text-center
+            h2 سجل
+            .line
+            p مرحبا بكم في حلقة الدردشة ، يرجى التسجيل مع معلومات حسابك الشخصية.
+          .main
+            form.auth-form
+              .form-group
+                label(for='exampleInputname') اسم
+                i.fa.fa-user
+                input#exampleInputname.form-control(required='', name='loginname', type='text', placeholder='اسم')
+              .form-group
+                label(for='exampleInputnumber') رقم الهاتف
+                i.fa.fa-phone
+                input#exampleInputnumber.form-control(required='', name='loginnumber', type='text', placeholder='رقم الهاتف')
+              .form-group
+                label(for='exampleInputEmail1') البريد الإلكتروني
+                i.fa.fa-envelope-o
+                input#exampleInputEmail1.form-control(required='', name='login[username]', type='email', placeholder='البريد الإلكتروني')
+              .form-group
+                label(for='exampleInputPassword1') كلمه السر
+                i.fa.fa-lock
+                input#exampleInputPassword1.form-control(required='', name='login[password]', type='password', placeholder='كلمه السر')
+                a.forgot-pass(href='forgot-pass.html') نسيت؟
+              .form-group
+                button.btn.submit(type='submit') سجل
+              .or-saparator
+                span أو
+              h6.text-center.mt-0.mb-3 تسجيل الدخول ب:
+              .form-button.text-center.social-btns
+                button.btn.submit.fb(type='submit') فيس بوك
+                button.btn.submit.ggl(type='submit') جوجل
+         
+    include ../../_assets/rtl/includes/footer-files

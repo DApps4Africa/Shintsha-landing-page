@@ -1,0 +1,65 @@
+// Nav start
+nav.navbar.navbar-expand-lg.theme-nav.fixed-top
+  .container
+    a.navbar-brand(href='index.html')
+      img(src='../../assets/images/logo.png', alt='logo')
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#mainmenu', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+        i.fa.fa-align-justify(aria-hidden='true')
+    #mainmenu.collapse.navbar-collapse
+      ul#mymenu.navbar-nav.mr-auto
+        li.nav-item
+          a.nav-link(href=nav_url+'#home') الصفحة الرئيسية
+        li.nav-item
+          a.nav-link(href=nav_url+'#about') حول
+        li.nav-item
+          a.nav-link.active(href=nav_url+'#feature') خاصية
+        li.nav-item
+          a.nav-link(href=nav_url+'#screenshots') لقطة شاشة
+        li.nav-item
+          a.nav-link(href=nav_url+'#team') الفريق
+        li.nav-item
+          a.nav-link(href=nav_url+'#contact') اتصل بنا
+        li.nav-item.dropdown
+          a.nav-link.dropdown-toggle(href=nav_url+'#news', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') مدونة
+          ul.dropdown-menu
+            li.nav-item
+              a.nav-link(href='blog.html') قائمة بلوق
+            li.nav-item
+              a.nav-link(href='blog-details.html') تفاصيل بلوق
+            li.nav-item
+              a.nav-link(href='blogs-leftside.html') الشريط الجانبي الأيسر
+            li.nav-item
+              a.nav-link(href='blogs-rightside.html') الشريط الجانبي الأيمن
+            li.nav-item
+              a.nav-link(href='blog-details-with-leftsidebar.html')
+                | تفاصيل اليسار
+                | الشريط الجانبي
+            li.nav-item
+              a.nav-link(href='blog-details-with-rightsidebar.html')
+                | تفاصيل حقوق
+                | الحقوق
+        li.nav-item.dropdown
+          a.nav-link.dropdown-toggle(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') صفحة أخرى
+          ul.dropdown-menu
+            li.nav-item
+              a.nav-link(href='sign-in.html') تسجيل الدخول
+            li.nav-item
+              a.nav-link(href='sign-up.html') سجل
+            li.nav-item
+              a.nav-link(href='forgot-pass.html') نسيت كلمة المرور
+            li.nav-item
+              a.nav-link(href='thank-you.html') شكرا
+            li.nav-item
+              a.nav-link(href='review.html') إعادة النظر
+            li.nav-item
+              a.nav-link(href='faq.html') التعليمات
+            li.nav-item
+              a.nav-link(href='coming-soon.html') قريبا
+            li.nav-item
+              a.nav-link(href='download.html') تحميل
+            li.nav-item
+              a.nav-link(href='request.html') طلب عرض توضيحي
+            li.nav-item
+              a.nav-link(href='404.html') 404
+// Nav end

@@ -1,0 +1,50 @@
+// FAQ section
+section#faq.theme-bg.faq
+      .container
+        .row
+          .col-md-12.text-center
+            .section-title
+              h2.text-white Frequently asked Question
+              .line.white
+        .row.faq-row
+          .col-lg-6
+            #accordionExample.accordion
+              .card.mb-3
+                #headingzero.card-header
+                  h5.mb-0
+                    button.faq-link(type='button', data-toggle='collapse', data-target='#collapsezero', aria-expanded='false', aria-controls='collapsezero')
+                      | 01 We're ready to start now
+                      i.fa.fa-angle-down.pull-right
+                #collapsezero.collapse(aria-labelledby='headingzero', data-parent='#accordionExample')
+                  .card-body
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore
+              .card.mb-3
+                #headingOne.card-header
+                  h5.mb-0
+                    button.faq-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                      | 02 Sedeiusmod tm inccsetetur ?
+                      i.fa.fa-angle-down.pull-right
+                #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample')
+                  .card-body
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore
+              .card.mb-3
+                #headingTwo.card-header
+                  h5.mb-0
+                    button.faq-link(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                      | 03 Sedeiusmod inc aliquatraiy?
+                      i.fa.fa-angle-down.pull-right
+                #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
+                  .card-body
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore
+              .card
+                #headingThree.card-header
+                  h5.mb-0
+                    button.faq-link(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                      | 04 Tempor inc aliquatraiy?
+                      i.fa.fa-angle-down.pull-right
+                #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+                  .card-body
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore
+          .col-lg-6.text-center
+             img.img-fluid(src=img+'faq.png', alt='')
+// end FAQ section

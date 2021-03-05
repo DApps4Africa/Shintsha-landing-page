@@ -1,0 +1,65 @@
+- var img = "../../assets/images/"
+- var src = "color1.css"
+- var nav_url = "index.html"
+doctype html
+html(lang='en' dir='rtl')
+    head
+      include ../../_assets/rtl/includes/header-files
+    body.inner-page.rtl
+      include ../../_assets/rtl/components/loader
+      include ../../_assets/rtl/includes/nav
+      .page-margin
+         section.auth-page.request-page
+            .animation-circle-inverse
+              i
+              i
+              i
+            .animation-circle
+              i
+              i
+              i
+            .container
+              .row
+                .col-md-6.request-left
+                  .auth-card
+                    .main
+                      .mb-4.text-right
+                        h2 الجدول الزمني التجريبي
+                        .line
+                      form.auth-form
+                        .form-group
+                          label(for='exampleInputname') اسم
+                          i.fa.fa-user
+                          input#exampleInputname.form-control(required='', name='loginname', type='text', placeholder='اسم')
+                        .form-group
+                          label(for='exampleInputnumber') اسم الشركة
+                          i.fa.fa-phone
+                          input#exampleInputnumber.form-control(required='', name='loginnumber', type='text', placeholder='اسم الشركة')
+                        .form-group
+                          label(for='exampleInputEmail1') البريد الإلكتروني
+                          i.fa.fa-envelope-o
+                          input#exampleInputEmail1.form-control(required='', name='login[username]', type='email', placeholder='البريد الإلكتروني')
+                        .form-group
+                          label(for='exampleInputPassword1') رقم الهاتف
+                          i.fa.fa-lock
+                          input#exampleInputPassword1.form-control(required='', type='number', placeholder='رقم الهاتف')
+                        .form-group.mb-0.text-right
+                          button.btn.submit(name='submit', value='submit', type='submit') جدول العرض التوضيحي
+
+                .col-md-6.request-right
+                  .home-right
+                    .mobile-slid.mt-0
+                      img.img-fluid(src='../../assets/images/top-mobile.png', alt='top1')
+                    .profile-msg
+                      img.img-fluid(src='../../assets/images/top2.png', alt='top2')
+                    .awesome
+                      img.img-fluid(src='../../assets/images/top3.png', alt='top3')
+                    .profile-1
+                      img.img-fluid(src='../../assets/images/top4.png', alt='top4')
+                    .emoji
+                      img.img-fluid(src='../../assets/images/top5.png', alt='top5')
+                    .profile-2
+                      img.img-fluid(src='../../assets/images/top1.png', alt='top1')
+
+    include ../../_assets/rtl/includes/footer
+    include ../../_assets/rtl/includes/footer-files

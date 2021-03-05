@@ -1,0 +1,43 @@
+- var img = "../../assets/images/"
+- var src = "color1.css"
+- var nav_url = "index.html"
+doctype html
+html(lang='en')
+    head
+      include ../../_assets/ltr/includes/header-files
+    body
+      include ../../_assets/ltr/components/loader
+      section.auth-page
+        .animation-circle-inverse
+          i
+          i
+          i
+        .animation-circle
+          i
+          i
+          i
+        .auth-card
+            .text-center
+              h2 Sign In
+              .line
+              p Welcome To chatloop, Please Sign in With Your Personal Account Information.
+            .main
+              form.auth-form
+                .form-group
+                  label(for='exampleInputEmail1') Email
+                  i.fa.fa-envelope-o
+                  input#exampleInputEmail1.form-control(required='', name='login[username]', type='email', placeholder='Email')
+                .form-group
+                  label(for='exampleInputPassword1') Password
+                  i.fa.fa-lock
+                  input#exampleInputPassword1.form-control(required='', name='login[password]', type='password', placeholder='Password')
+                  a.forgot-pass(href='forgot-pass.html') forgot?
+                .form-group
+                  button.btn.submit(type='submit') Sign in
+                .or-saparator
+                  span or
+                h6.text-center.mt-0.mb-3 Sign in with:
+                .form-button.text-center.social-btns
+                  button.btn.submit.fb(type='submit') Facebook
+                  button.btn.submit.ggl(type='submit') Google
+      include ../../_assets/ltr/includes/footer-files
