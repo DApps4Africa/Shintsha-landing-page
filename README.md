@@ -10,7 +10,7 @@ Our aim is to increase the adoption of crypto and promote financial inclusion in
 
 Users can simply add the Shintsha number on their cellphone and send a prompt, they will, in turn, be guided on how to register, send and receive crypto all while using Whatsapp. 
 
-The team made up of 4persons from Africa, were the Overall Winners of the Road to Devcon Open Finance Bounty. Since then, we have gone ahead to optimize our solution based on intensive research.
+The team made up of 4persons from Africa, were the Overall Winners of the **Road to Devcon Open Finance Bounty**. Since then, we have gone ahead to optimize our solution based on intensive research.
 
 ## The Team
 
